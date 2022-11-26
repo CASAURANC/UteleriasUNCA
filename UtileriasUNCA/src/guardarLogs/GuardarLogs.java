@@ -9,8 +9,8 @@ public class GuardarLogs {
 		
 	}
 	public void iniciarLogs(Logger logger){
-	       //String ruta ="\\\\SRVRAULASVIRT\\Miguel\\LOGS\\Logs.log";
-		   String ruta="C:\\Logs.log";
+	       String ruta ="\\\\SRVRAULASVIRT\\Miguel\\LOGS\\Logs.log";
+		  // String ruta="C:\\Logs.log";
 	       try {
 	       FileHandler handler = new FileHandler(ruta,true);
 	       logger.addHandler(handler);
